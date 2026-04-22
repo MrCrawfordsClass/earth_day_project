@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Day Mission Control</title>
+    <style>
+        :root {
+            --primary: #2d6a4f;
+            --secondary: #52b788;
+            --accent: #d8f3dc;
+            --dark: #081c15;
+            --light: #f8f9fa;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: var(--light); color: var(--dark); }
+        header { background: var(--primary); color: white; padding: 2rem; text-align: center; border-bottom: 5px solid var(--secondary); }
+        .container { max-width: 1000px; margin: 2rem auto; padding: 0 20px; }
+        .mission-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-left: 8px solid var(--secondary); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        h2 { color: var(--primary); margin-top: 0; }
+        .btn { display: inline-block; background: var(--primary); color: white; padding: 10px 20px; text-decoration: none; border-radius: 25px; margin-top: 10px; font-weight: bold; }
+        .btn:hover { background: var(--secondary); }
+        .tag { background: var(--accent); color: var(--primary); padding: 5px 12px; border-radius: 15px; font-size: 0.8rem; font-weight: bold; }
+        footer { text-align: center; padding: 2rem; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌍 Earth Day 2026: The Mission</h1>
+    <p>3 Days. 3 Challenges. 1 Planet.</p>
+</header>
+
+<div class="container">
+    <div class="mission-grid">
+        <div class="card">
+            <span class="tag">PHASE 1</span>
+            <h2>The Detective</h2>
+            <p>Investigate the "Ghosts" in our wetlands and the "Magic Tricks" of the mining industry.</p>
+            <ul>
+                <li><a href="https://www.earthday.org/colorful-ghosts-haunt-our-wetlands/">Ghostly Wetlands</a></li>
+                <li><a href="https://www.earthday.org/mining-mismanagement-and-magic-tricks/">Mining Illusions</a></li>
+            </ul>
+            <p><strong>Deliverable:</strong> Google Doc Analysis</p>
+            <a href="#" class="btn">View Checklist</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">PHASE 2</span>
+            <h2>The Architect</h2>
+            <p>Discover high-tech climate solutions and learn why your clothes matter more than you think.</p>
+            <ul>
+                <li><a href="https://www.earthday.org/new-ideas-in-the-climate-change-fight/">New Tech Ideas</a></li>
+                <li><a href="https://www.earthday.org/toolkit-how-to-shop-for-your-clothes/">Sustainable Fashion</a></li>
+            </ul>
+            <p><strong>Deliverable:</strong> Canva/Slides Deck</p>
+            <a href="#" class="btn">View Template</a>
+        </div>
+
+        <div class="card">
+            <span class="tag">PHASE 3</span>
+            <h2>The Activist</h2>
+            <p>Pick a real-world action. Design a pollinator garden or plan a massive local cleanup.</p>
+            <ul>
+                <li><a href="https://www.earthday.org/action/">Action Hub</a></li>
+                <li><a href="https://earthday.org/wp-content/uploads/2020/04/POLLINATOR-GARDEN-TOOLKIT-2020.pdf">Garden Toolkit</a></li>
+            </ul>
+            <p><strong>Deliverable:</strong> Final Project Proposal</p>
+            <a href="#" class="btn">Launch Plan</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    Built for the 8th Grade Earth Day Challenge &copy; 2026
+</footer>
+
+</body>
+</html>
